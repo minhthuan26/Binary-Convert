@@ -37,7 +37,7 @@
                         Margin="0 5 0 0"
                         Height="40"
                         SelectedIndex="0"
-                        SelectedItem="{Binding SelectedFrom, UpdateSourceTrigger=PropertyChanged}">
+                        SelectionChanged="IsEnable">
                         <ComboBoxItem>
                             <TextBlock
                                 FontSize="20"
@@ -69,17 +69,17 @@
                         x:Name="to"
                         Margin="0 5 0 0"
                         Height="40"
-                        SelectedIndex="0">
+                        SelectedIndex="1">
                         <ComboBoxItem>
                             <TextBlock
                                 FontSize="20"
-                                Text="Thập lục phân"/>
+                                Text="Thập phân"/>
                         </ComboBoxItem>
 
                         <ComboBoxItem>
                             <TextBlock
                                 FontSize="20"
-                                Text="Thập phân"/>
+                                Text="Thập lục phân"/>
                         </ComboBoxItem>
 
                         <ComboBoxItem>
@@ -129,6 +129,8 @@
                     Orientation="Horizontal">
 
                     <Button 
+                        IsDefault="True"
+                        Click="Exchange"
                         Margin="10"
                         Width="100"
                         Height="50" 
@@ -153,7 +155,7 @@
                         Width="120"
                         Height="50" 
                         BorderBrush="{x:Null}" 
-                        Background="#FF6F6F6F">
+                        Background="#FF6F6F6F" Click="ClearAll">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon 
                                 VerticalAlignment="Bottom"
@@ -173,7 +175,7 @@
                         Width="150"
                         Height="50" 
                         BorderBrush="{x:Null}" 
-                        Background="#FF6F6F6F">
+                        Background="#FF6F6F6F" Click="Swap">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon 
                                 VerticalAlignment="Bottom"
