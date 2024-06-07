@@ -5,6 +5,8 @@
   - This project change number from Decimal to Binary and Hexadecimal
 ### Technology
   - C#, WPF
+### Members
+  - [Le Minh Thuan](https://github.com/minhthuan26)
 ### HOW TO RUN
   >   - Install .NET 6 from [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
   >   - Clone project from github:```git clone https://github.com/minhthuan26/Binary-Convert.git```
