@@ -1,6 +1,6 @@
 > [!IMPORTANT]
 > THIS IS JUST A PROJECT FOR STUDYING PURPOSE
-# Binary Convert
+# Binary Convert (Self-project)
 ### Description
   - This project change number from Decimal to Binary and Hexadecimal
 ### Technology
